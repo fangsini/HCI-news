@@ -1,0 +1,67 @@
+/*CSS Document*/
+@charset "utf-8";
+body {font-size: 0.8em; margin: 0 0; font-family: "微软雅黑";}
+div {margin: 0 auto;} ul,li {list-style: none; margin: 0; padding: 0;}
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:active {text-decoration: none;}
+a:hover {color: #0066CC;text-decoration: none;}
+/*public topbar*/
+.topbar {
+	width: 100%;
+	height: 40px;
+	position: fixed;
+	z-index: 1000;
+	background: #272727;
+	background:-moz-linear-gradient(top, #272727, #4F4F4F);
+	background:-webkit-gradient(linear, 0 0, 0 bottom, from(#272727), to(#4F4F4F));
+}
+.topbar_info {
+	width: 1000px;
+	color: white;
+}
+.topbar_button {
+	padding: 0 20px 0 20px;
+	font-size: 1.2em;
+	line-height: 40px;
+	font-weight: bold;
+}
+.topbar_button:hover {
+	cursor: pointer;
+	background: #2894FF;
+}
+.topbar_loginfo {
+	line-height: 40px;
+}
+.footer {
+	margin-top: 15px;
+	color: #0080FF;
+	width: 1000px;
+	font-size: 1.0em;
+	border-top: 1px solid grey;
+	color: grey;
+	line-height: 24px;
+}
+.footer li {
+	padding: 5px;
+}
+.blank {
+	height: 40px;
+}
+/*public style*/
+.of_hide {overflow: hidden;}
+.float_left {float: left;} .float_right {float: right;}
+.text_center {text-align: center;} .text_left {text-align: left;} .text_right {text-align: right;}
+.text_bold {font-weight: bold;}
+.text_normal {font-size: 0.8em;} .text_shadow {text-shadow: 5px 5px 5px grey;}
+.text_black {color: #272727;} .text_grey {color: #7B7B7B;} .text_darkblue {color: #0066CC;}
+.text_orange {color: #FF8040;} .text_green {color: #548C00;} .text_white {color: white;}
+/*新加的*/
+.text_red{color: red;}
+.border_bottom{
+	border-bottom: 1px solid #ccc;
+}
+a{color: black;}
+.line_height{
+	line-height: 30px;
+}
